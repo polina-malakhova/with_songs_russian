@@ -23,8 +23,6 @@ tree = os.walk('/home/PollyTulip/With_love/Песни')
 songs_with_gaps = {} # название песни : название файлов с текстами песен с пропусками
 songs_with_mp3 = {}  # название песни : название файла с музыкой
 
-
-
 for i in tree:
     songs_names = i[1]
     break
